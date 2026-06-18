@@ -63,14 +63,14 @@
                                 I specialize in creating modern, responsive websites and user interfaces. 
                                 My goal is to deliver high-quality projects that combine creativity, usability,and performance for the best user experience.</p>
                         <div class="social-links">
-                            <a href="#" class="social-link"><i class="fab fa-linkedin-in" style="margin-left: 12px; margin-top: 10px;"></i></a>
-                            <a href="#" class="social-link"><i class="fab fa-github" style="margin-left: 12px; margin-top: 10px;"></i></a>
-                            <a href="#" class="social-link"><i class="fab fa-instagram" style="margin-left: 12px; margin-top: 10px;"></i></a>
-                            <a href="#" class="social-link"><i class="fab fa-tiktok" style="margin-left: 12px; margin-top: 10px;"></i></a>
+                            <a href="https://www.linkedin.com/in/dherafr" target="_blank" class="social-link"><i class="fab fa-linkedin-in" style="margin-left: 12px; margin-top: 10px;"></i></a>
+                            <a href="https://github.com/Dherafr" target="_blank" class="social-link"><i class="fab fa-github" style="margin-left: 12px; margin-top: 10px;"></i></a>
+                            <a href="https://www.instagram.com/fraszr_/" target="_blank" class="social-link"><i class="fab fa-instagram" style="margin-left: 12px; margin-top: 10px;"></i></a>
+                            <a href="https://www.tiktok.com/@fraszr_" target="_blank" class="social-link"><i class="fab fa-tiktok" style="margin-left: 12px; margin-top: 10px;"></i></a>
                         </div>
-                        <button class="btn btn-cv">
+                        <a href="#" id="downloadCV" class="btn btn-cv">
                             <i class="fas fa-download me-2"></i>DOWNLOAD CV
-                        </button>
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -106,12 +106,12 @@
                         <p class="about-text">
                             Hello everyone! My name is Dhera Frasetyo. S, born in 2007 in Majalengka, West Java.
                             I am a student at SMKN 1 Maja, majoring in Software Engineering (RPL). I have been learning programming for about two years and also exploring Data Analytics.
-                             I enjoy working out, going to the gym, and continuously learning new things. I’m always open to collaboration to gain more knowledge, relationships, and experience.
+                             I enjoy working out, going to the gym, and continuously learning new things. I'm always open to collaboration to gain more knowledge, relationships, and experience.[...]
                         </p>
                         <p class="about-text">
                             My job is to make sure your website is not only visually amazing but also performs flawlessly behind the scenes. As a Front-End Developer and UI/UX Designer,
-                             I focus on both the aesthetic and technical aspects of our digital product. I develop streamlined user-friendly interfaces and write code that ensures optimal performance,
-                              and fast load times, and creating an engaging experience from start to finish. If you are interested in hiring me, please contact the listed contact.
+                             I focus on both the aesthetic and technical aspects of our digital product. I develop streamlined user-friendly interfaces and write code that ensures optimal perform[...]
+                               and fast load times, and creating an engaging experience from start to finish. If you are interested in hiring me, please contact the listed contact.
                         </p>
                     </div>
                 </div>
@@ -309,10 +309,10 @@
                     <a href="#contact">Contact</a>
                 </div>
                 <div class="footer-social social-links">
-                            <a href="#" class="social-link"><i class="fab fa-linkedin-in" style="margin-top: 9px;"></i></a>
-                            <a href="#" class="social-link"><i class="fab fa-github" style="margin-top: 9px;"></i></a>
-                            <a href="#" class="social-link"><i class="fab fa-instagram" style="margin-top: 9px;"></i></a>
-                            <a href="#" class="social-link"><i class="fab fa-tiktok" style="margin-top: 9px;"></i></a>
+                            <a href="https://www.linkedin.com/in/dherafr" target="_blank" class="social-link"><i class="fab fa-linkedin-in" style="margin-top: 9px;"></i></a>
+                            <a href="https://github.com/Dherafr" target="_blank" class="social-link"><i class="fab fa-github" style="margin-top: 9px;"></i></a>
+                            <a href="https://www.instagram.com/fraszr_/" target="_blank" class="social-link"><i class="fab fa-instagram" style="margin-top: 9px;"></i></a>
+                            <a href="https://www.tiktok.com/@fraszr_" target="_blank" class="social-link"><i class="fab fa-tiktok" style="margin-top: 9px;"></i></a>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -329,6 +329,15 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
+    
+    <!-- CV Download Script -->
+    <script>
+        document.getElementById('downloadCV').addEventListener('click', function(e) {
+            e.preventDefault();
+            // Ganti dengan URL Google Drive ID Anda
+            window.location.href = 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID';
+        });
+    </script>
 </body>
 
 </html>
